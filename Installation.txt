@@ -1,0 +1,9 @@
+1. Make sure your server has php-curl installed.
+2. Ipload and overwrite the files inside /upload/ folder that come along 
+   with this zip to your site. Example: upload it to /public_html/ or /htdocs/
+   (make sure you dont upload the folder named: "upload", just its content inside.)
+3. Import the database.sql database dump found in /sql/ using phpMyAdmin  in your AVS database
+4. Access the Mass Grabber in Siteadmin -> Videos -> Mass Embedder
+5. Thats all. Enter an URL containing multiple videos on it (like a search results page, or any video browsing page) and it will automatically embed all videos found on that page.
+6. Supported websites:
+	- YouTube.com
